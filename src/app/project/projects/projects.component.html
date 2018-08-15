@@ -1,0 +1,6 @@
+<h1>Projects</h1>
+<ul *ngFor="let project of projects">
+  <li>Name : {{project.name}} Id : {{project.id}}</li>
+  
+</ul>
+<button (click) = "populate()">populate</button>
